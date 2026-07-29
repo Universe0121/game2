@@ -1,0 +1,41 @@
+{
+  "hunter": {
+    "name": "吸血鬼猎人",
+    "description": "均衡型角色，生命和伤害都比较稳定。",
+    "max_hp": 120,
+    "speed": 230,
+    "damage_bonus": 1.0,
+    "cooldown_bonus": 1.0,
+    "pickup_range": 90,
+    "armor": 0,
+    "start_weapon": "whip",
+    "price": 0,
+    "unlocked": true
+  },
+  "mage": {
+    "name": "法师学徒",
+    "description": "高伤害低生命，武器冷却更短。",
+    "max_hp": 85,
+    "speed": 220,
+    "damage_bonus": 1.18,
+    "cooldown_bonus": 0.88,
+    "pickup_range": 95,
+    "armor": 0,
+    "start_weapon": "magic_bolt",
+    "price": 950,
+    "unlocked": false
+  },
+  "knight": {
+    "name": "重甲骑士",
+    "description": "高生命低移速，自带减伤。",
+    "max_hp": 165,
+    "speed": 185,
+    "damage_bonus": 0.95,
+    "cooldown_bonus": 1.05,
+    "pickup_range": 80,
+    "armor": 4,
+    "start_weapon": "knife",
+    "price": 1250,
+    "unlocked": false
+  }
+}

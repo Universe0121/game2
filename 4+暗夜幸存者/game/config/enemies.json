@@ -1,0 +1,56 @@
+{
+  "bat": {
+    "name": "蝙蝠", "type": "普通怪", "description": "成群出现的小型飞行敌人，血量低但速度快。",
+    "hp": 24, "speed": 105, "damage": 9, "exp": 5, "coin": 1, "radius": 15, "color": [107, 86, 168], "weight": 8
+  },
+  "zombie": {
+    "name": "僵尸", "type": "普通怪", "description": "走得慢但很耐揍，像是忘了下班的打工人。",
+    "hp": 42, "speed": 72, "damage": 14, "exp": 7, "coin": 2, "radius": 18, "color": [83, 143, 88], "weight": 7
+  },
+  "skeleton": {
+    "name": "骷髅", "type": "普通怪", "description": "骨头架子，移动稳定，适合测试你的走位。",
+    "hp": 34, "speed": 88, "damage": 12, "exp": 6, "coin": 1, "radius": 16, "color": [212, 208, 184], "weight": 6,
+    "skills": ["bone_spread"], "skill_cooldown": 6.2, "skill_range": 560, "bone_range": 520
+  },
+  "ghost": {
+    "name": "幽灵", "type": "普通怪", "description": "速度较快，喜欢从人群缝隙里贴近玩家。",
+    "hp": 30, "speed": 120, "damage": 13, "exp": 8, "coin": 2, "radius": 17, "color": [136, 194, 218], "weight": 4,
+    "skills": ["blink"], "skill_cooldown": 7.0, "skill_range": 520
+  },
+  "giant_bat": {
+    "name": "巨型蝙蝠", "type": "精英怪", "description": "大号蝙蝠，血量明显更高，击败后更容易掉宝箱。",
+    "hp": 150, "speed": 92, "damage": 21, "exp": 28, "coin": 10, "radius": 28, "color": [96, 57, 142], "weight": 2, "elite": true,
+    "skills": ["charge"], "skill_cooldown": 5.6, "skill_range": 620
+  },
+  "armored_zombie": {
+    "name": "重甲僵尸", "type": "精英怪", "description": "穿着盔甲的僵尸，虽然慢，但撞一下很疼。",
+    "hp": 210, "speed": 58, "damage": 25, "exp": 35, "coin": 12, "radius": 30, "color": [117, 128, 112], "weight": 2, "elite": true,
+    "skills": ["stomp"], "skill_cooldown": 6.0, "skill_range": 360
+  },
+  "necromancer": {
+    "name": "死灵法师", "type": "远程精英", "description": "会发射暗影弹的远程敌人，建议优先清理。",
+    "hp": 190, "speed": 76, "damage": 21, "exp": 40, "coin": 14, "radius": 25, "color": [72, 112, 190], "weight": 1,
+    "elite": true, "ranged": true, "shoot_cooldown": 2.2, "shoot_range": 620, "bullet_speed": 260,
+    "skills": ["laser"], "skill_cooldown": 6.5, "skill_range": 720
+  },
+  "blood_guardian": {
+    "name": "血墓守卫", "type": "小Boss", "description": "第一阶段的小Boss，拿着墓碑当盾牌，主打一个不讲道理。",
+    "hp": 850, "speed": 70, "damage": 31, "exp": 90, "coin": 70, "radius": 38, "color": [156, 67, 92], "weight": 0, "boss": true, "small_boss": true,
+    "skills": ["shield_charge"], "skill_cooldown": 5.2, "skill_range": 680
+  },
+  "grave_warden": {
+    "name": "墓园典狱长", "type": "小Boss", "description": "第二阶段的小Boss，负责把玩家从墓园礼貌地赶出去。",
+    "hp": 1150, "speed": 78, "damage": 35, "exp": 120, "coin": 90, "radius": 42, "color": [97, 112, 158], "weight": 0, "boss": true, "small_boss": true,
+    "skills": ["chains", "laser"], "skill_cooldown": 4.8, "skill_range": 720
+  },
+  "bone_harvester": {
+    "name": "白骨收割者", "type": "小Boss", "description": "第三阶段的小Boss，血厚伤高，是最终 Boss 前的压力测试。",
+    "hp": 1450, "speed": 82, "damage": 39, "exp": 150, "coin": 110, "radius": 44, "color": [205, 198, 160], "weight": 0, "boss": true, "small_boss": true,
+    "skills": ["big_explosion", "bone_spread"], "skill_cooldown": 4.5, "skill_range": 720, "bone_range": 600
+  },
+  "vampire_count": {
+    "name": "吸血鬼伯爵", "type": "大Boss", "description": "最终 Boss。会把你的 Build、走位和电脑风扇一起拉满。",
+    "hp": 2600, "speed": 74, "damage": 45, "exp": 220, "coin": 180, "radius": 52, "color": [174, 45, 70], "weight": 0, "boss": true, "final_boss": true,
+    "skills": ["laser", "ring_shots", "big_explosion", "shield_charge", "chains"], "skill_cooldown": 3.8, "skill_range": 780, "ring_range": 580
+  }
+}

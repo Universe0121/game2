@@ -1,0 +1,8 @@
+{
+  "permanent_upgrades": {
+    "max_hp": {"name": "生命上限", "base_price": 280, "price_growth": 1.7, "max_level": 8, "value": 10},
+    "speed": {"name": "移动速度", "base_price": 360, "price_growth": 1.75, "max_level": 6, "value": 8},
+    "damage": {"name": "伤害加成", "base_price": 460, "price_growth": 1.85, "max_level": 8, "value": 0.04},
+    "pickup": {"name": "拾取范围", "base_price": 240, "price_growth": 1.68, "max_level": 8, "value": 10}
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "easy": {
+    "name": "简单",
+    "description": "适合熟悉系统，敌人更脆，金币收益略低。",
+    "enemy_hp": 0.85,
+    "enemy_speed": 0.9,
+    "enemy_damage": 0.8,
+    "spawn_rate": 0.85,
+    "coin_bonus": 0.85
+  },
+  "hard": {
+    "name": "困难",
+    "description": "标准挑战，敌人强度和金币收益正常。",
+    "enemy_hp": 1.0,
+    "enemy_speed": 1.0,
+    "enemy_damage": 1.0,
+    "spawn_rate": 1.0,
+    "coin_bonus": 1.0
+  },
+  "nightmare": {
+    "name": "噩梦",
+    "description": "怪物更硬更快，但金币奖励也更高。",
+    "enemy_hp": 1.35,
+    "enemy_speed": 1.15,
+    "enemy_damage": 1.25,
+    "spawn_rate": 1.35,
+    "coin_bonus": 1.45
+  }
+}

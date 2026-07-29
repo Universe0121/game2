@@ -1,0 +1,12 @@
+{
+  "spinach_can": {
+    "name": "菠菜罐头",
+    "type": "主动道具",
+    "description": "使用后 8 秒内攻击力提高 55%。最多携带 3 罐，战斗中按 1 使用。",
+    "funny": "传说中大力水手的本命至宝，没人能解释一罐菠菜为什么能暴涨战力。",
+    "max_stack": 3,
+    "damage_bonus": 0.55,
+    "duration": 8,
+    "use_key": "1"
+  }
+}
